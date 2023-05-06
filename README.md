@@ -60,7 +60,7 @@ Add it in your root build.gradle at the end of the repositories:
 
 ```groovy
 	dependencies {
-	        implementation 'com.github.hemingzhong:MPFreeChart:v1.02'
+	        implementation 'com.github.hemingzhong:MPFreeChart:v1.0.4'
 	}
 ```
 
