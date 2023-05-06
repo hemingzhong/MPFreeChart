@@ -19,6 +19,7 @@ MPFreeChart 继承自 [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart
 
 ## 用图说话
 数据：
+```data
         entryList.add(new Entry(0f, -1.56f));
         entryList.add(new Entry(0.1f, -0.33f));
         entryList.add(new Entry(0.2f, 3.68f));
@@ -32,6 +33,7 @@ MPFreeChart 继承自 [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart
         entryList.add(new Entry(0.2f, -8.78f));
         entryList.add(new Entry(0.1f, -3.63f));
         entryList.add(new Entry(0.0f, -2.27f));
+```
 
 ![github](https://github.com/hemingzhong/MPFreeChart/blob/main/freechart.png)
 
@@ -68,7 +70,7 @@ MPFreeChart大多数使用方式和[MPAndroidChart](https://github.com/PhilJay/M
 
 不同点如下
 
-1. Create the instance object of chart view:`AAChartView`
+1. Create the instance object of chart view
 ```xml
     <com.hamz.hfreechart.library.XFreeLineChart
             android:id="@+id/xf_lineChart"
