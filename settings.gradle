@@ -1,0 +1,3 @@
+rootProject.name = "MPFreeChart"
+include ':app'
+include ':hfreechart'
