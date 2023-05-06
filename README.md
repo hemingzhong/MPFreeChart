@@ -9,7 +9,6 @@ MPFreeChart 继承自 [MPAndroidChart](https://github.com/PhilJay/MPAndroidChart
 ```java
 
     E/AndroidRuntime: FATAL EXCEPTION: main
-        Process: com.acorn.myframeapp, PID: 13758
         java.lang.NegativeArraySizeException: -2
             at com.github.mikephil.charting.utils.Transformer.generateTransformedValuesLine(Transformer.java:178)
             at com.github.mikephil.charting.renderer.LineChartRenderer.drawValues(LineChartRenderer.java:567)
